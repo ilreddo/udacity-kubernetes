@@ -63,7 +63,15 @@ def predict():
     # get an output prediction from the pretrained model, clf
     prediction = list(clf.predict(scaled_payload))
     # TO DO:  Log the output prediction value
+    LOG.info(f"Prediction: \n{prediction}")
+    predictionstring = str(prediction)
+    logfile = open('kubernetes_out.txt', 'w')
+    logfile.write(predictionstring)
+    logfile.close()
     return jsonify({'prediction': prediction})
+
+def __str__(self):
+    return "Some descriptive string"
 
 if __name__ == "__main__":
     # load pretrained model as clf
