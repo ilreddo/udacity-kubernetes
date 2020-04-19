@@ -1,4 +1,4 @@
-[![<ORG_NAME>](https://circleci.com/gh/ilreddo/udacity-kubernetes.svg?style=svg)](<LINK>)
+[![ilreddo](https://circleci.com/gh/ilreddo/udacity-kubernetes.svg?style=svg)](<LINK>)
 
 ## Project Overview
 
