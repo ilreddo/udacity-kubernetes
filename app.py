@@ -70,7 +70,7 @@ def predict():
     logfile.close()
     return jsonify({'prediction': prediction})
 
-def __str__(self):
+def __str__():
     return "Some descriptive string"
 
 if __name__ == "__main__":
